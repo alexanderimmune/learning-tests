@@ -3,7 +3,6 @@ import { testConfig } from "../../utils/testConfig";
 import { helpers } from "../../utils//helpers";
 import { CoffeeCartPage } from "../../pages/coffeeCart";
 import { faker } from "@faker-js/faker";
-import { Playwrightdev } from "../../pages/playwrightdev";
 
 let coffeeCartPage: CoffeeCartPage;
 let randomName = faker.person.firstName();
