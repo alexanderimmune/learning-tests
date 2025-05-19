@@ -52,4 +52,9 @@ export class CoffeeCartPage {
   async clickOnCheckout() {
     await this.coffeeCheckout().click();
   }
+
+  async checkoutHover() {
+    await this.coffeeCheckout().hover();
+    await this.coffeeCheckout().focus();
+  }
 }
