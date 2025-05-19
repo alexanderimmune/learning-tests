@@ -5,5 +5,5 @@ export const helpers = {
   playwrightIntroUrl: "https://playwright.dev/docs/intro",
   playwrightApiUrl: "https://playwright.dev/docs/mock-browser-apis",
   verifyHeadingText: 'Search results for "verify"',
-  noSearchPlaceholder: "No recent searches"
+  noSearchPlaceholder: "No recent searches",
 };

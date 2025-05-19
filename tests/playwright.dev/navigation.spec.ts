@@ -19,4 +19,3 @@ test("PWD-1: Click GETSTARTED button and proceed", { tag: ["@playwrightdev"] }, 
   await playwrightdev.clickGetStarted();
   await expect(page.url()).toEqual(helpers.playwrightIntroUrl);
 });
-

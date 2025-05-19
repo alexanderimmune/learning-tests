@@ -17,7 +17,7 @@ export class Playwrightdev {
   verifyHeading = () => this.page.getByRole("heading", { name: 'Search results for "verify"' });
   searchInput = () => this.page.locator('input[class*="DocSearch-Input"]');
   clearRecentSearch = () => this.page.getByRole("button", { name: "Remove this search from" });
-  noRecentSearches = () => this.page.getByText('No recent searches');
+  noRecentSearches = () => this.page.getByText("No recent searches");
 
   async clickGetStarted() {
     await this.getStartedButton().click();
@@ -44,5 +44,4 @@ export class Playwrightdev {
     await this.searchField().click();
     await this.clearRecentSearch().click();
   }
-
 }

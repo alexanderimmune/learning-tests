@@ -24,4 +24,3 @@ test("PWD-2: Switch to another mode", { tag: ["@playwrightdev"] }, async ({ page
     await expect(html).not.toHaveAttribute("data-theme", initialTheme);
   }
 });
-
